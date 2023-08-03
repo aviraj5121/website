@@ -494,7 +494,7 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    background: url(../img/first.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -524,7 +524,7 @@ a.active {
 
 #intro h1 {
     color: #FFF;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 3px;
 }
@@ -598,7 +598,7 @@ a.fa.fa-angle-down:focus {
 }
 
 #about img#prof-pic {
-    width: 170px;
+    width: 200px;
     height: auto;
 }
 
@@ -612,9 +612,6 @@ a.fa.fa-angle-down:focus {
     font-weight: 500;
 }
 
-#about img {
-    border-radius: 50%;
-}
 
 #about #tl-dr {
     background: #f0f0f0;
@@ -780,8 +777,6 @@ a.fa.fa-angle-down:focus {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    display;
-    block;
     color: #FFF;
     font-size: 55px;
     text-align: center;
@@ -839,8 +834,7 @@ a.fa.fa-angle-down:focus {
     position: relative;
     width: 100%;
     min-width: 300px;
-    max-width: 500px;
-    margin: 10px auto;
+    max-width: 100%;
     padding: 0;
     list-style: none;
     font-family: 'Lato', sans-serif;
@@ -889,379 +883,10 @@ a.fa.fa-angle-down:focus {
 }
 
 
-/*#progress-1 {
-    -webkit-animation-name: progress-1;
-    animation-name: progress-1;
-    -webkit-animation-delay: .7s;
-    animation-delay: .7s;
-}*/
-
-.progress1-delay {
-    -webkit-animation-name: progress-1;
-    animation-name: progress-1;
-    -webkit-animation-delay: .7s;
-    animation-delay: .7s;
-}
 
 
-/*#progress-2 {
-    -webkit-animation-name: progress-2;
-    animation-name: progress-2;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-}*/
-
-.progress2-delay {
-    -webkit-animation-name: progress-2;
-    animation-name: progress-2;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-}
 
 
-/*#progress-3 {
-    -webkit-animation-name: progress-3;
-    animation-name: progress-3;
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
-}*/
-
-.progress3-delay {
-    -webkit-animation-name: progress-3;
-    animation-name: progress-3;
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
-}
-
-
-/*#progress-4 {
-    -webkit-animation-name: progress-5;
-    animation-name: progress-4;
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-}*/
-
-.progress4-delay {
-    -webkit-animation-name: progress-5;
-    animation-name: progress-4;
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-}
-
-
-/*#progress-5 {
-    -webkit-animation-name: progress-4;
-    animation-name: progress-5;
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-}*/
-
-.progress5-delay {
-    -webkit-animation-name: progress-4;
-    animation-name: progress-5;
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-}
-
-
-/*.progressred {
-    background-color: #c0392b;
-}
-.progressblue {
-    background-color: #1199ff;
-}
-.progresspurple {
-    background-color: #9b59b6;
-}
-.progressorange {
-    background-color: orange;
-}
-.progressgreen {
-    background-color: #27ae60;
-}*/
-
-@-webkit-keyframes progress-1 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 95%;
-    }
-}
-
-@-webkit-keyframes progress-2 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 90%;
-    }
-}
-
-@-webkit-keyframes progress-3 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@-webkit-keyframes progress-4 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-webkit-keyframes progress-5 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-@-moz-keyframes progress-1 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 95%;
-    }
-}
-
-@-moz-keyframes progress-2 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 90%;
-    }
-}
-
-@-moz-keyframes progress-3 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@-moz-keyframes progress-4 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-moz-keyframes progress-5 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-@keyframes progress-1 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 95%;
-    }
-}
-
-@keyframes progress-2 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 90%;
-    }
-}
-
-@keyframes progress-3 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@keyframes progress-4 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@keyframes progress-5 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-.skills-section {
-    /*background: mistyrose;*/
-}
-
-.skills-section h3 {
-    font-weight: 400;
-    font-size: 18px;
-    margin: 0 0 50px;
-    line-height: 1.5;
-}
-
-@media screen and (max-width: 768px) {
-    .skills-section h3 {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 16px;
-    }
-}
-
-.skills-section .skill-icon {
-    padding-bottom: 15px;
-    height: 120px;
-}
-
-@media screen and (max-width: 360px) {
-    .skills-section .skill-icon {
-        padding-bottom: 0;
-        height: 100px;
-    }
-}
-
-.skills-section .skill-icon img {
-    margin: 0 auto;
-    width: 75px;
-    height: auto;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.skills-section .skill-icon img:hover {
-    -webkit-filter: none;
-    filter: none;
-}
-
-@media screen and (min-width: 450px) {
-    .skills-section .skill-icon img#html {
-        width: 55px;
-    }
-    .skills-section .skill-icon img#css {
-        width: 55px;
-    }
-    .skills-section .skill-icon img#sass {
-        margin-top: 15px;
-    }
-    .skills-section .skill-icon img#js {
-        width: 55px;
-    }
-    .skills-section .skill-icon img#node {
-        width: 100px;
-    }
-}
-
-@media screen and (min-width: 985px) {
-    .skills-section .skill-icon img#node {
-        margin-top: -10px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .skills-section .skill-icon img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-.places-worked {
-    /*background: mistyrose;*/
-}
-
-.employment h3 {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 30px;
-    line-height: 1.5;
-}
-
-img#starry-logo,
-img#mullen-logo,
-img#nu-logo {
-    height: auto;
-    display: block;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-img#starry-logo {
-    width: 180px;
-    margin: 0 auto 10px;
-}
-
-img#mullen-logo {
-    width: 200px;
-    margin: 0 auto 10px;
-}
-
-img#nu-logo {
-    width: 120px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-    .skills-bar-container {
-        width: 100%;
-        min-width: 100px;
-    }
-    .employment h3 {
-        font-size: 16px;
-        margin-bottom: 0;
-    }
-    img#mullen-logo {
-        width: 200px;
-    }
-    img#nu-logo {
-        width: 150px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #experience {
-        padding: 60px 0px;
-    }
-    #experience p {
-        padding-bottom: 20px;
-    }
-    .skills,
-    .employment {
-        display: block;
-        width: 100%;
-    }
-    img#nu-logo {
-        width: 120px;
-    }
-}
 
 
 /* ======= RESUME ======= */
