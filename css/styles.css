@@ -811,11 +811,13 @@ a.fa.fa-angle-down:focus {
 /* ======= EXPERIENCE ======= */
 
 #experience {
-    padding-top: 100px;
+
     padding-bottom: 100px;
     background: #fff;
 }
-
+#experience h2{
+    font-weight: 1000;
+}
 #experience p {
     font-size: 16px;
     padding-bottom: 40px;
@@ -925,7 +927,7 @@ img#nu-logo {
 /* ======= RESUME ======= */
 
 #resume {
-    background: url(../img/laptop-blur.jpg);
+    background: url(../img/aesthetic-clouds-3840X2160-q6p8m9pvphck5tpw.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -987,6 +989,7 @@ a.resume-btn:active {
 /* ======= PORTFOLIO ======= */
 
 #portfolio {
+    
     padding-top: 90px;
     padding-bottom: 100px;
     background: #fff;
@@ -1530,9 +1533,12 @@ ul.social-buttons li a:active {
 
 .modal-header,
 .modal-footer {
+
     background-color: #F0F0F0;
 }
-
+.modal-header{
+    padding-top: 20px;
+}
 .modal-header .close {
     margin-top: -13px;
 }
